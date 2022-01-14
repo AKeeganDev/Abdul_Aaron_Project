@@ -7,20 +7,21 @@
   </head>
 
   <body>
-    <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
     
-    <script  src="js/index.js"></script> -->
+    <script  src="js/index.js"></script>
 
     <h1 id="title">freeCodeCamp Survey Form</h1>
     <p id="description">Thank you for taking the time to help us improve the platform</p>
-    <form action="" method="post" id="survey_form">  
-      <label for="Name">Name</label>
-      <input type="text" name="full_name" id="name" placeholder="Enter your name" required>
-      <label for="Email">Email</label>
+    <form action="" method="post" id="survey-form">  
+      <label id="name-label" for="Name">Name</label>
+      <input type="text" name="name" id="name" placeholder="Enter your name" required>
+      <label id="email-label" for="Email">Email</label>
       <input type="email" name="email" id="email" placeholder="Enter your Email" required>
-      <label for="number">Age</label>
-      <input type="number" name="number" placeholder="Enter Your Age" id="number" required>
+      <label id="number-label" for="number">Age</label>
+      <input type="number" name="number" placeholder="Enter Your Age" id="number" min="10" max="99" required>
+
     </form>
   </body>
 </html>
