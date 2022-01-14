@@ -21,7 +21,26 @@
       <input type="email" name="email" id="email" placeholder="Enter your Email" required>
       <label id="number-label" for="number">Age</label>
       <input type="number" name="number" placeholder="Enter Your Age" id="number" min="10" max="99" required>
+      <label for="dropdown">Which option best describe your current role?</label>
+      <select name="dropdown" id="dropdown">
+        <option value="student">Student</option>
+        <option value="full_time_job">Full Time Job</option>
+        <option value="full_time_learner">Full Time Learner</option>
+        <option value="prefer_not_to_say">Prefer Not to Say</option>
+        <option value="other">Other</option>
+      </select>
+      <label for="">Would you recommend freeCodeCamp to a friend?</label>
+        <label>
+          <input name="user-recommend" value="definitely" type="radio" class="input-radio" checked="">Definitely
+        </label>
 
+        <label>
+          <input name="user-recommend" value="maybe" type="radio" class="input-radio">Maybe
+        </label>
+
+        <label>
+          <input name="user-recommend" value="not-sure" type="radio" class="input-radio">Not Sure
+        </label>
     </form>
   </body>
 </html>
